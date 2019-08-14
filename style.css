@@ -1,0 +1,201 @@
+body {
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    height: 100vh;
+    
+}
+
+#n1 {
+	width: 150px;
+    height: 150px;
+    border: 2px solid #fff  ;
+    background-color: darkgrey;
+    margin: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 130px;
+    text-align: center;
+}
+#operacao {
+    color: blue;
+    font-weight: 600;
+    font-size: 120px;
+    float: left;
+    text-align: center;
+    margin: 25px 10px;
+}
+
+#n2 {
+	width: 150px;
+    height: 150px;
+    border: 2px solid #fff;
+    background-color: darkgrey;
+    margin: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 130px;
+    text-align: center;
+}
+
+#igual {
+    color: blue;
+    font-weight: 600;
+    font-size: 120px;
+    float: left;
+    text-align: center;
+    margin: 25px 10px;
+}
+
+#resultado {
+	width: 300px;
+    height: 150px;
+    border: 2px solid blue;
+    background-color: darkgrey;
+    float: left;
+    margin: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 130px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+button {
+    color: blue;
+    float: left;    
+    font-size: 28px;
+    background-color: #fff;
+    border: 2px solid blue;
+    transition: all linear 0.3s;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+button:hover {
+    color: #fff;
+    background-color: blue;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.pontos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: arial;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.acerto p{
+    font-size: 36px;
+    color: #fff;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 4px 5px;
+
+}
+
+#acerto {
+	font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    background-color: #fff;
+    color: green;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 30px;
+}
+
+
+.erro p {
+    font-size: 36px;
+    color: #fff;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 4px 5px;
+}
+
+#erro {
+	font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    background-color: #fff;
+    color: red;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 30px;
+}
+
+#result {
+    margin: 20px auto;
+    width: 100%;
+    font-size: 32px;
+    color: orangered;
+    text-align: center;
+    font-weight: 600;
+    font-family: arial;
+}
+
+.informacoes {
+	font-family: arial;
+    font-size: 20px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: auto;
+    font-weight: 600;
+}
+
+.informacoes p{
+	margin-bottom: 5px;
+}
+
+.informacoes .input {
+    border: 2px solid blue;
+    font-size: 20px;
+    color: darkorange;
+    padding: 5px;
+    min-width: 200px;
+}
+
+.informacoes .input:hover {
+    box-shadow: 2px 2px 5px black;
+    transition: all linear 0.1s;
+}
+
+.informacoes .input:active {
+    box-shadow: 1px 1px 5px black;
+    transition: all linear 0.1s;
+}
+
+.jogo {
+    margin-top: 30px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+#seta {
+	color: red;
+}
+

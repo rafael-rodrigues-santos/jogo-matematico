@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Jogo Matemático</title>
+</head>
+
+<body>
+    <div class="informacoes">
+    
+        <div>
+            <p>
+                Qual é o seu nome:
+            </p>
+        
+        <input type="text" class="input" autofocus>
+        </div>
+        
+        <div>
+    <p>
+        Tipo de operação:
+    </p>
+        <select name="operacao" id="operacao1" class="input">
+          <option value="1">Adição</option>
+          <option value="2">Subtração</option>
+          <option value="3">Multiplicação</option>
+          <option value="4">Divisão</option>
+        </select>
+        </div>
+        
+        <button id="comecar" class="comecar" onclick="comecar()">Começar</button>
+        
+    </div>
+    
+    <div class="jogo">
+    <div id="n1">
+    0
+    </div>
+    <div id="operacao">
+    
+    </div>
+    <div id="n2">
+    0
+    </div>
+    <div id="igual">
+    =
+    </div>
+    <input type="text" id="resultado">
+    <button onclick="" id="verificar">Esta certo?</button>
+        
+    </div>
+    
+    <div class="pontos">
+        <div class="acerto">
+            <p>Acertos: <span id="acerto">0</span></p><span id="setaAcerto"></span>
+        </div>
+        <div class="erro">
+            <p>Erros: <span id="erro">0</span></p><span id="setaErro"></span>
+        </div>
+    </div>
+    <div id="result"></div>
+</body>
+</html>
